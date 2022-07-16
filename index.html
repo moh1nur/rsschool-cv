@@ -3,57 +3,86 @@
     <head>
         <meta charset="UTF=8">
         <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap" rel="stylesheet">
         <title>CV</title>
     </head>
     <body>
-        <header>
-            <center>
-        <b><h1>ABDUNABIYEVA MOHINUR</h1></b>
-            </center>
-        </header>
-        <div class="root">
-
-          <section class="container">
-            <b><h2 class="name">Contacts</h2></b>
-              <li><b>E-mail:</b> @moh1nur.abdunab1yeva.99@gmail.com</li>
-              <li><b>GitHub:</b> @moh1nur</li>
+       <header>
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+            <li class="nav-item"><a href="#aboutme" class="nav-link">About me</a></li>
+            <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+            <li class="nav-item"><a href="#code" class="nav-link">Code example</a></li>
+            <li class="nav-item"><a href="#level" class="nav-link">English level</a></li>
+          </ul>
+        </nav>
+       </header>
+       <main class="main">
+        <div class="container main-container">
+          <section class="section section-profile" id="profile">
+            <img src="assets/imgs/avatar.jpg" alt="MyPhoto" class="img">
+            <div class="section-title">
+            <h1 class="maintitle">Abdunabiyeva Mohinur Nurmuhammad qizi</h1>
+            <h3 class="subtitle">Student</h3>
+            </div>
           </section>
-          <section class="container">
-            <b><h2 class="name">About me</h2></b>
-              <div>I want to develop my coding skills. I am interested in IT and I always try to learn something new about it. I am ambitious and responsible.</div>
+          <section class="section" id="contacts">
+            <h2 class="article">Contacts</h2>
+            <ul>
+              <li>E-mail: moh1inur.abdunab1yeva.99@gmail.com</li>
+              <li>Telegram: @m_abdunabiyeva_m</li>
+              <li>GitHub: @moh1nur</li>
+              <li>Discord: @moh1nur</li>
+            </ul>
           </section>
-          <section class="container">
-            <b><h2 class="name">Skills</h2></b>
+          <section class="section" id="aboutme">
+            <h2 class="article">About me</h2>
+            <p>I want to develop my coding skills. I am interested in IT and I always try to learn something new about it. I am ambitious and responsible.</p>
+          </section>
+          <section class="section" id="skills">
+            <h2 class="article">Skills</h2>
+            <ul>
               <li>HTML</li>
               <li>CSS</li>
               <li>Python</li>
               <li>Flutter(Dart)</li>
+            </ul>
           </section>
-          <section class="container">
-            <b><h2 class="name">Code Example</h2></b>
-              <div>
-                  <pre>
-                      <code>
-                  nums = list(range(17))
-                  nums_square = []
-                  for num in nums:
-                     nums_square.append(num**2)
-                     print(nums)
-                  print(nums_square)
-                      </code>
-                  </pre>
-              </div>
+          <section class="section" id="code">
+            <h2 class="article">Code example</h2>
+            <code>
+              nums = list(range(17)) <br>
+              nums_square = [] <br>
+              for num in nums: <br>
+                 nums_square.append(num**2) <br>
+                 print(nums) <br>
+              print(nums_square) <br>
+            </code>
           </section>
-          <section class="container">
-            <b><h2 class="name">Experience</h2></b>
-              <div>None</div>
+          <section class="section" id="level">
+            <h2 class="article">English level</h2>
+            <p>B2</p>
           </section>
-          <section class="container">
-            <b><h2 class="name">English level</h2></b>
-             <div>B2</div>
-          </section>
-          
         </div>
-        
+       </main>
+       <footer class="footer">
+        <div class="container footer-container">
+          <div class="text">© 2022</div>
+          <div>
+            <a href="https://rs.school/js/">
+            <img src="assets/imgs/rss.svg" alt="rsLogo" class="rslogo">
+            </a>
+          </div>
+        </div>
+       </footer>
     </body>
 </html>
